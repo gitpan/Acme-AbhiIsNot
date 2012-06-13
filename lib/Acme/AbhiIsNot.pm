@@ -1,6 +1,6 @@
 package Acme::AbhiIsNot;
 
-use 5.006
+use 5.006;
 use strict;
 use warnings;
 
@@ -10,12 +10,11 @@ Acme::AbhiIsNot - The great new Acme::AbhiIsNot!
 
 =head1 VERSION
 
-Version 0.02_01
+Version 0.02_02
 
 =cut
 
-our $VERSION = '0.02_01';
-
+our $VERSION = '0.02_02';
 
 =head1 SYNOPSIS
 
@@ -108,4 +107,4 @@ See http://dev.perl.org/licenses/ for more information.
 
 =cut
 
-1; # End of Acme::AbhiIsNot
+1;    # End of Acme::AbhiIsNot
