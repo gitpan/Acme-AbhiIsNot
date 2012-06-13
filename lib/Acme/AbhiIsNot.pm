@@ -1,6 +1,6 @@
 package Acme::AbhiIsNot;
 
-use 5.006;
+use 5.006
 use strict;
 use warnings;
 
@@ -10,11 +10,11 @@ Acme::AbhiIsNot - The great new Acme::AbhiIsNot!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02_01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02_01';
 
 
 =head1 SYNOPSIS
