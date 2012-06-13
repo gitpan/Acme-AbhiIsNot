@@ -10,11 +10,11 @@ Acme::AbhiIsNot - The great new Acme::AbhiIsNot!
 
 =head1 VERSION
 
-Version 0.02_02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02_02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -34,11 +34,18 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
+=head2 sum( LIST_OF_NUMBERS )
+
+Returns the sime of the numbers.
 
 =cut
 
-sub function1 {
+sub sum {
+	my $sum = 0;
+	foreach (@_) {
+		$sum += $_;
+	}
+	return $sum;
 }
 
 =head2 function2
@@ -96,7 +103,7 @@ L<http://search.cpan.org/dist/Acme-AbhiIsNot/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012 "abhishek".
+Copyright 2012 "Abhishek".
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
